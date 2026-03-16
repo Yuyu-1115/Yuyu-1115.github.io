@@ -1,7 +1,6 @@
 :root {
 	--base-pane-color: #eff1f5;
 	--secondary-pane-color: #dce0e8;
-	--surface-0-color: #ccd0da;
 	--overlay-0-color: #9ca0b0;
 	--text-color: #4c4f69;
 	--base-padding: 10px;
@@ -10,6 +9,18 @@
 
 	--blue: #1e66f5;
 	--sky: #04a5e5;
+}
+
+@media(prefers-color-scheme: dark) {
+	:root {
+		--base-pane-color: #24273a;
+		--secondary-pane-color: #181926;
+		--overlay-0-color: #6e738d;
+		--text-color: #cad3f5;
+
+		--blue: #8aadf4;
+		--sky: #91d7e3;
+	}
 }
 
 html,
